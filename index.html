@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <section>
+        <div class="container">
+            <div class="tab-wrapper">
+                <ul class="tabs">
+                    <li class="tab-link active" data-tab="1">Accordion</li>
+                    <li class="tab-link" data-tab="2">Custom Slider</li>
+                    <li class="tab-link" data-tab="3">Image Gallery</li>
+                    <!-- <li class="tab-link" data-tab="4">4</li>
+                    <li class="tab-link" data-tab="5">5</li> -->
+                </ul>
+            </div>
+            <!------ Tabs Content ------>
+            <div class="content-wrapper">
+                <!-- 1 -->
+                <div id="tab-1" class="tab-content active">
+                    <div class="container">
+                        <div class="main-wrapper">
+    
+                            <div class="box-wrapper">
+                                <h2>1 Lorem ipsum dolor sit, amet consectetur.</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem et
+                                    voluptates a numquam
+                                    iste beatae accusamus quae enim sunt! vero provident est cum dolore ut. Id quos,
+                                    deserunt nam
+                                    commodi nostrum ea in! Ipsa, at nam?</p>
+                            </div>
+    
+                            <div class="box-wrapper">
+                                <h2>2 Lorem ipsum dolor sit, amet consectetur.</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+    
+                            <div class="box-wrapper">
+                                <h2>3 Lorem ipsum dolor sit, amet consectetur</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem et
+                                    voluptates a numquam
+                                    iste beatae accusamus quae enim sunt! Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Asperiores, eius accusantium sunt</p>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div id="tab-2" class="tab-content">
+                
+                    <div class="slider-container">
+                        <div class="slide active">
+                           <img src="./images/portfolio-3.jpg" alt="Slide 1">
+                        </div>
+                        <div class="slide">
+                           <img src="./images/portfolio-4.jpg" alt="Slide 2">
+                        </div>
+                        <div class="slide">
+                           <img src="./images/portfolio-5.jpg" alt="Slide 3">
+                        </div>
+                        <div class="slide">
+                            <img src="./images/portfolio-6.jpg" alt="Slide 3">
+                         </div>
+                         <div class="slide">
+                            <img src="./images/portfolio-7.jpg" alt="Slide 3">
+                         </div>
+                         <div class="slide">
+                            <img src="./images/portfolio-3.jpg" alt="Slide 3">
+                         </div>
+                        <button class="prev">❮</button>
+                        <button class="next">❯</button>
+                        <div class="dots"></div>
+                     </div>
+                </div>
+                <!-- 3 -->
+                <div id="tab-3" class="tab-content">
+                    <div class="wrap">
+                        <form>
+                            <input type="text" placeholder="Write some text here">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </form>
+                    </div>
+    
+                    <!-- Image Gallery -->
+                    <div class="gallery">
+                        <img src="./images/product-7.jpg">
+                        <img src="./images/product-8.jpg">
+                        <img src="./images/product-9.jpg">
+                        <img src="./images/product-10.jpg">
+                        <img src="./images/product-11.jpg">
+                        <img src="./images/product-8.jpg">
+                        <img src="./images/product-10.jpg">
+                        <img src="./images/product-11.jpg">
+                        <img src="./images/product-9.jpg">
+                        <img src="./images/product-8.jpg">
+                        <img src="./images/product-9.jpg">
+                        <img src="./images/product-11.jpg">
+                    </div>
+                    <!-- End Image Gallery -->
+                </div>
+            </div>
+            
+            <!-- Tabs End -->
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox">
+            <div class="close">&#10006;</div>
+            <div class="prev">&lt;</div>
+            <div class="next">&gt;</div>
+            <img src="#">
+        </div>
+        
+        <!-- Lightbox End -->
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
